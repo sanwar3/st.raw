@@ -1,0 +1,19 @@
+.topnav {
+  background-color: #ccbe2d;
+  text-align: center;
+  margin: none;
+  vertical-align: bottom;
+  display: grid;
+  grid-template-rows: 100px;
+  margin-top: -10px;
+}
+
+.bg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.top-bar {
+  margin-top: -30px;
+}
