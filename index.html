@@ -5,29 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>St.raw</title>
 
+
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+
 
 </head>
-<body style="margin: 0;">
-    <div class="topnav">
-        <a class="active"><img src="./assets/img/logo web dev-04.svg" class="top-bar" width="250">
-            </h1></a>
+
+<body>
+
+    <div class="top-area">
+        <div><a href="index.html"><img src=" ./assets/img/logo-01.svg" width="100" height="100" alt="logo; st.raw-image." class="logo"></a>
+        </div>
+        <div class="text-sign-in"><a href="sign-in.html" style="text-decoration: none" class="sign-in">sign in</a>
+        </div>
+
+        <!-- image to image nav start -->
+        <div class="bottom-area">
+            <ul class="bottom-nav">
+                <li><a href="#metal">metal</a></li>
+                <li><a href="#glass">glass</a></li>
+                <li><a href="#silicon">silicon</a></li>
+                <li><a href="#bamboo">bamboo</a></li>
+            </ul>
+        </div>
+        <!-- image to image nav end -->
+
+
+
+        <nav>
+            <div class="outer-menu">
+                <input class="checkbox-toggle" type="checkbox" />
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">shop</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">my cart</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 
 
-    <main>
 
-        <section class="products">
-            <article class="product-featured">
-                <h1 class="product-title"></h1>
-                <div><img src="./assets/img/metal-straws-main.jpg" class="bg" alt="">
+    <!--    <div class="text-wrapper">
+        <div><a href=""><img src=" ./assets/img/logo-01.svg" width="100" height="100" alt="logo; st.raw-image." class="logo"></a>
+        </div>
+
+        <div class="text-sign-in"><a href="sign-in.html" style="text-decoration: none" class="sign-in">sign in</a>
+        </div>
+        <div class="text-hamburger"><a href=""><img src="./assets/img/hamburger-icon-01.svg" width="80" height="100" alt="icon; hamburger-menu." class="hamburger"></a>
+        </div>
+        <div class="text-discover"><a href=""><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+        </div>
+
+        <div class="text-st-raw">
+            <h1 class="st-raw">©st.raw co.</h1>
+        </div>
+        <div class="text-scroll-icon">
+            <img src="./assets/img/scroll-icon-01.svg" width="30" height="30" alt="scroll-icon." class="scroll-icon">
+        </div>
+
+        <div class="text-contact">
+            <a href="contact.html" style="text-decoration: none" class="contact">Contact</a>
+        </div>
+
+        <div class="materials">
+            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">metal</a></span>
+
+            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">glass</a></span>
+
+            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">silicone</a></span>
+
+            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">bamboo</a></span>
+        </div>
+
+    </div> -->
+
+    <main class="wrapper">
+
+        <div class="products-container">
+            <section class="product-featured product-featured-01" id="metal">
+                <div><img src="./assets/img/metal-straws-pink-background.jpg" class="center-image-01" alt="metal-straws-image">
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita, iure qui exercitationem fuga illo magni quibusdam aut itaque aspernatur non ipsa at eos molestias, ullam numquam, minus voluptatem libero?</p>
-            </article>
-        </section>
+
+                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+                </div>
+                <div>
+                    <div class="text-st-raw">
+                        <div class="st-raw">©st.raw co.</div>
+                    </div>
+
+                    <div class="text-scroll-icon">
+                        <img src="./assets/img/scroll-icon-01.svg" width="30" height="30" alt="scroll-icon." class="scroll-icon">
+                    </div>
+
+                    <div class="text-contact">
+                        <a href="contact.html" style="text-decoration: none" class="contact">contact</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-featured product-featured-02" id="glass">
+                <div><img src="./assets/img/glass-straws.jpg" class="center-image-02" alt="glass-straws-image">
+                </div>
+
+                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+                </div>
+
+            </section>
+
+            <section class="product-featured product-featured-03" id="silicon">
+                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-02" alt="glass-straws-image">
+                </div>
+
+                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+
+
+
+
     </main>
 
-
+    <script src="./assets/js/script.js"></script>
 
 </body>
 </html>
