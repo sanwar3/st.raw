@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200&family=Oxygen:wght@300&display=swap');
 
 /* font-family: 'Catamaran', sans-serif; */
+/* #ccbe2d */
 
 .top-area {
   width: 100%;
@@ -264,6 +265,17 @@ li {
 
 .bottom-nav li:hover {
   text-decoration: underline;
+  color: white;
+}
+
+.nav-item {
+  padding: 0.05em 0.5em;
+  color: #000;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgba(204, 191, 45, 0.781);
   color: white;
 }
 /* image to image nav style end */
