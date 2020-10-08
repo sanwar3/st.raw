@@ -22,21 +22,16 @@ body {
   background-size: 15%;
 }
 
-.text-wrapper {
+/* .text-wrapper {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-image: url('/assets/img/logo-icon-01.svg');
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+} */
 
 .text-logo {
   grid-column-start: 1;
@@ -79,19 +74,6 @@ body {
 }
 .materials-tab:hover {
   text-decoration: underline;
-}
-
-.center-image-01 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
-  margin-top: 30px;
-  /* place-self: center; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 /* .title-01 {
@@ -156,10 +138,24 @@ body {
 
 /* Product Featured */
 .product-featured {
-  padding-top: 40px;
-  padding-bottom: 100px;
+  /* padding-top: 40px;
+  padding-bottom: 100px; */
 }
 
+.center-image-01 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+  margin-top: 50px;
+
+
+  /* place-self: center; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
 .center-image-02 {
   /* width: 55%;
   display: block;
@@ -172,8 +168,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
-  margin-top: 30px;
+  width: 62%;
+  margin-top: 50px;
 }
 
 .center-image-03 {
@@ -189,5 +185,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.center-image-04 {
+  /* width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  place-self: center;
+  top: 50%;
+  left: 50%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 50px;
 }

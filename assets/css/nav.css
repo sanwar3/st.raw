@@ -224,7 +224,7 @@ li {
   display: inline;
   padding-right: 10px;
 }
-/*navigation-style-end-hamburger*/
+
 
 /* image to image nav style start*/
 .bottom-area {
@@ -233,10 +233,13 @@ li {
   bottom: 0;
   left: 0;
 
-  margin-bottom: 85px;
+  /* margin-bottom: 85px; */
+  margin-bottom: 45px;
 
   display: grid;
   /* grid-template-columns: 1fr; */
+
+
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -247,6 +250,7 @@ li {
 
   /* display: grid; */
   /* grid-template-columns: repeat(4, 1fr); */
+
   grid-column: 3 / span 3;
   grid-row-start: 5;
 }
@@ -261,6 +265,7 @@ li {
   text-decoration: none;
   font-family: 'Catamaran', sans-serif;
   font-size: 20px;
+  
 }
 
 .bottom-nav li:hover {
@@ -278,14 +283,15 @@ li {
   background-color: rgba(204, 191, 45, 0.781);
   color: white;
 }
-/* image to image nav style end */
 
+
+/* text & icons on page */
 .text-discover {
   margin-left: 800px;
-  margin-right: 100px;
-  margin-top: -120px;
+  margin-right: -150px;
+  margin-top: -300px;
   width: 55%;
-  z-index: 10;
+  z-index: 5;
 }
 
 .text-st-raw {
@@ -334,4 +340,55 @@ li {
   color: black;
   font-family: 'Catamaran', sans-serif;
   font-size: 20px;
+}
+
+
+
+
+/* stacked scroll */
+
+.product-featured-new-metal {
+  z-index: 4;
+}
+
+.product-featured-glass {
+  z-index: 3;
+}
+
+.product-featured-silicone {
+  z-index: 2;
+}
+
+.product-featured-bamboo {
+  z-index: 1;
+}
+
+.product-featured {
+  height: 100vh;
+  position: sticky;
+  bottom: 0;
+
+  display: grid;
+  place-items: center;
+}
+
+.product-featured img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+/* page loading icon */
+
+#load{
+    width: 15%;
+    height:100%;
+    position:center;
+    z-index:9999;
+    background:url('/assets/img/logo-icon-01.svg') no-repeat center center rgba(0,0,0,0.25)
 }

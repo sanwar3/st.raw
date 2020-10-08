@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>St.raw</title>
+    <title>st.raw</title>
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -14,13 +14,25 @@
 
 <body>
 
+    <!-- page loading icon -->
+    <div id="load"></div>
+    <div id="contents">
+    </div>
+
+
+
+
     <div class="top-area">
+
+        <!-- top logo & sign in -->
         <div><a href="index.html"><img src=" ./assets/img/logo-01.svg" width="100" height="100" alt="logo; st.raw-image." class="logo"></a>
         </div>
         <div class="text-sign-in"><a href="sign-in.html" style="text-decoration: none" class="sign-in">sign in</a>
         </div>
 
-        <!-- image to image nav start -->
+
+
+        <!-- image to image nav -->
         <div class="bottom-area">
             <ul class="bottom-nav">
                 <li><a href="#metal" class="nav-item">metal</a></li>
@@ -29,10 +41,10 @@
                 <li><a href="#bamboo" class="nav-item">bamboo</a></li>
             </ul>
         </div>
-        <!-- image to image nav end -->
 
 
 
+<!-- hamburger menu -->
         <nav>
             <div class="outer-menu">
                 <input class="checkbox-toggle" type="checkbox" />
@@ -43,10 +55,10 @@
                     <div>
                         <div>
                             <ul>
-                                <li><a href="#">home</a></li>
+                                <li><a href="index.html">home</a></li>
                                 <li><a href="#">shop</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">my cart</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="shopping-cart.html">my cart</a></li>
                             </ul>
                         </div>
                     </div>
@@ -54,6 +66,7 @@
             </div>
         </nav>
     </div>
+
 
 
 
@@ -94,14 +107,14 @@
     <main class="wrapper">
 
         <div class="products-container">
-            <section class="product-featured product-featured-01" id="metal">
-                <div><img src="./assets/img/metal-straws-pink-background.jpg" class="center-image-01" alt="metal-straws-image">
-                </div>
+            <!-- <section class="product-featured product-featured-metal" id="metal">
+                <div><img src="./assets/img/metal-main-image.jpg" class="center-image-01" alt="metal-straws-image">
+                </div> -->
 
-                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
-                </div>
-                <div>
-                    <div class="text-st-raw">
+                <!-- <div class="text-discover"><a href="metal-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
+                </div> -->
+                <!-- <div> -->
+                    <!-- <div class="text-st-raw">
                         <div class="st-raw">©st.raw co.</div>
                     </div>
 
@@ -111,40 +124,61 @@
 
                     <div class="text-contact">
                         <a href="contact.html" style="text-decoration: none" class="contact">contact</a>
-                    </div>
+                    </div> -->
 
+                <!-- </div> -->
+
+            <!-- </section> -->
+
+            <section class="product-featured product-featured-new-metal" id="metal">
+                <div><img src="./assets/img/metal-main-image.jpg" class="center-image-01" alt="metal-straws-image">
+                </div>
+
+                <div class="text-discover"><a href="glass-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
                 </div>
 
             </section>
 
-            <section class="product-featured product-featured-02" id="glass">
-                <div><img src="./assets/img/glass-straws.jpg" class="center-image-02" alt="glass-straws-image">
+            <section class="product-featured product-featured-glass" id="glass">
+                <div><img src="./assets/img/glass-straws-main-final-warm.jpg" class="center-image-02" alt="glass-straws-image">
                 </div>
 
-                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+                <div class="text-discover"><a href="glass-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
+                </div>
+
+            </section>
+
+            <section class="product-featured product-featured-silicone" id="silicon">
+                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-03" alt="glass-straws-image">
+                </div>
+
+                <div class="text-discover"><a href="silicone-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
                 </div>
 
             </section>
 
-            <section class="product-featured product-featured-03" id="silicon">
-                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-02" alt="glass-straws-image">
+            <section class="product-featured product-featured-bamboo" id="bamboo">
+                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-04" alt="bamboo-straws-image">
                 </div>
 
-                <div class="text-discover"><a href=".html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
+                <div class="text-discover"><a href="bamboo-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
                 </div>
 
             </section>
+
 
         </div>
 
 
 
-
-
-
-
     </main>
 
+
+    <!-- <script>
+        $(window).load(function () {
+            $('#loading').hide();
+        });
+    </script> -->
     <script src="./assets/js/script.js"></script>
 
 </body>

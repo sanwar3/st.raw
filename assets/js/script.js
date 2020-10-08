@@ -1,3 +1,5 @@
+// highlight image name start
+
 function observeElements(elementsQuery) {
   function callbackFunc(entries, observer) {
     entries.forEach((entry) => {
@@ -28,3 +30,21 @@ function observeElements(elementsQuery) {
 }
 
 observeElements('.product-featured');
+
+
+
+
+// loading page icon
+
+document.onreadystatechange = function () {
+  var state = document.readyState;
+  if (state == 'interactive') {
+    document.getElementById('contents').style.visibility = 'hidden';
+  } else if (state == 'complete') {
+    setTimeout(function () {
+      document.getElementById('interactive');
+      document.getElementById('load').style.visibility = 'hidden';
+      document.getElementById('contents').style.visibility = 'visible';
+    }, 1000);
+  }
+};
