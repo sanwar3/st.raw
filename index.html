@@ -6,21 +6,15 @@
     <title>st.raw</title>
 
 
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="./assets/css/desktop-homepage.css">
 
 
 </head>
 
 <body>
-
-    <!-- page loading icon -->
-    <div id="load"></div>
-    <div id="contents">
-    </div>
-
-
-
 
     <div class="top-area">
 
@@ -30,21 +24,7 @@
         <div class="text-sign-in"><a href="sign-in.html" style="text-decoration: none" class="sign-in">sign in</a>
         </div>
 
-
-
-        <!-- image to image nav -->
-        <div class="bottom-area">
-            <ul class="bottom-nav">
-                <li><a href="#metal" class="nav-item">metal</a></li>
-                <li><a href="#glass" class="nav-item">glass</a></li>
-                <li><a href="#silicon" class="nav-item">silicon</a></li>
-                <li><a href="#bamboo" class="nav-item">bamboo</a></li>
-            </ul>
-        </div>
-
-
-
-<!-- hamburger menu -->
+        <!-- hamburger menu -->
         <nav>
             <div class="outer-menu">
                 <input class="checkbox-toggle" type="checkbox" />
@@ -65,76 +45,52 @@
                 </div>
             </div>
         </nav>
+
     </div>
 
 
 
 
-    <!--    <div class="text-wrapper">
-        <div><a href=""><img src=" ./assets/img/logo-01.svg" width="100" height="100" alt="logo; st.raw-image." class="logo"></a>
-        </div>
-
-        <div class="text-sign-in"><a href="sign-in.html" style="text-decoration: none" class="sign-in">sign in</a>
-        </div>
-        <div class="text-hamburger"><a href=""><img src="./assets/img/hamburger-icon-01.svg" width="80" height="100" alt="icon; hamburger-menu." class="hamburger"></a>
-        </div>
-        <div class="text-discover"><a href=""><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-image." class="discover"></a>
-        </div>
-
+    <!-- footer -->
+    <div class="footer-area">
         <div class="text-st-raw">
-            <h1 class="st-raw">©st.raw co.</h1>
+            <div class="st-raw">©st.raw co.</div>
         </div>
+
+        <!-- image to image nav -->
+        <ul class="bottom-nav">
+            <li><a href="#metal" class="nav-item">metal</a></li>
+            <li><a href="#glass" class="nav-item">glass</a></li>
+            <li><a href="#silicon" class="nav-item">silicon</a></li>
+            <li><a href="#bamboo" class="nav-item">bamboo</a></li>
+        </ul>
+
         <div class="text-scroll-icon">
             <img src="./assets/img/scroll-icon-01.svg" width="30" height="30" alt="scroll-icon." class="scroll-icon">
         </div>
 
         <div class="text-contact">
-            <a href="contact.html" style="text-decoration: none" class="contact">Contact</a>
+            <a href="contact.html" style="text-decoration: none" class="contact">contact</a>
         </div>
 
-        <div class="materials">
-            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">metal</a></span>
 
-            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">glass</a></span>
+    </div>
 
-            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">silicone</a></span>
 
-            <span class="materials-tab"><a href=".html" style="text-decoration: none" class="materials-text">bamboo</a></span>
-        </div>
 
-    </div> -->
+
+
+    <!-- product images -->
 
     <main class="wrapper">
 
         <div class="products-container">
-            <!-- <section class="product-featured product-featured-metal" id="metal">
-                <div><img src="./assets/img/metal-main-image.jpg" class="center-image-01" alt="metal-straws-image">
-                </div> -->
-
-                <!-- <div class="text-discover"><a href="metal-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
-                </div> -->
-                <!-- <div> -->
-                    <!-- <div class="text-st-raw">
-                        <div class="st-raw">©st.raw co.</div>
-                    </div>
-
-                    <div class="text-scroll-icon">
-                        <img src="./assets/img/scroll-icon-01.svg" width="30" height="30" alt="scroll-icon." class="scroll-icon">
-                    </div>
-
-                    <div class="text-contact">
-                        <a href="contact.html" style="text-decoration: none" class="contact">contact</a>
-                    </div> -->
-
-                <!-- </div> -->
-
-            <!-- </section> -->
 
             <section class="product-featured product-featured-new-metal" id="metal">
                 <div><img src="./assets/img/metal-main-image.jpg" class="center-image-01" alt="metal-straws-image">
                 </div>
 
-                <div class="text-discover"><a href="glass-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
+                <div class="text-discover"><a href="metal-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
                 </div>
 
             </section>
@@ -149,7 +105,7 @@
             </section>
 
             <section class="product-featured product-featured-silicone" id="silicon">
-                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-03" alt="glass-straws-image">
+                <div><img src="./assets/img/silicone-main-image.jpg" class="center-image-03" alt="glass-straws-image">
                 </div>
 
                 <div class="text-discover"><a href="silicone-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
@@ -158,27 +114,18 @@
             </section>
 
             <section class="product-featured product-featured-bamboo" id="bamboo">
-                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-04" alt="bamboo-straws-image">
+                <div><img src="./assets/img/silicone-straws-teal-background.jpg" class="center-image-04" alt="">
                 </div>
 
-                <div class="text-discover"><a href="bamboo-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
-                </div>
+                <!-- <div class="text-discover"><a href="bamboo-product-page.html"><img src="./assets/img/discover-01.svg" width="120" height="120" alt="discover-button-image." class="discover"></a>
+                </div> -->
 
             </section>
-
-
         </div>
-
-
-
     </main>
 
 
-    <!-- <script>
-        $(window).load(function () {
-            $('#loading').hide();
-        });
-    </script> -->
+
     <script src="./assets/js/script.js"></script>
 
 </body>
